@@ -22,7 +22,7 @@ public class BookController {
 	private BookService bookService;
 
 	@RequestMapping(
-			value = "/add",
+			value = "/",
 			method = RequestMethod.POST,
 			produces = MediaType.APPLICATION_JSON_VALUE,
 			consumes = MediaType.APPLICATION_JSON_VALUE)
@@ -38,7 +38,7 @@ public class BookController {
 	}
 
 	@RequestMapping(
-			value = "/update",
+			value = "/",
 			method = RequestMethod.PUT,
 			produces = MediaType.APPLICATION_JSON_VALUE,
 			consumes = MediaType.APPLICATION_JSON_VALUE)

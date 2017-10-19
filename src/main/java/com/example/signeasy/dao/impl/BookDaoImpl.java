@@ -27,4 +27,5 @@ public class BookDaoImpl implements BookDao {
 	public void deleteBook(Long id) {
 		bookRepository.delete(id);
 	}
+
 }

@@ -19,7 +19,7 @@ public class MemberController {
 	MemberService memberService;
 
 	@RequestMapping(
-			value = "/add",
+			value = "/",
 			method = RequestMethod.POST,
 			produces = MediaType.APPLICATION_JSON_VALUE,
 			consumes = MediaType.APPLICATION_JSON_VALUE)
@@ -35,7 +35,7 @@ public class MemberController {
 	}
 
 	@RequestMapping(
-			value = "/update",
+			value = "/",
 			method = RequestMethod.PUT,
 			produces = MediaType.APPLICATION_JSON_VALUE,
 			consumes = MediaType.APPLICATION_JSON_VALUE)
